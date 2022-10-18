@@ -11,6 +11,6 @@
         "target": "ES6",
         "strict": true
     },
-    "include": ["src/**/*", "../testing/src/app.ts"],
+    "include": ["src/**/*"],
     "exclude": ["./node_modules"]
 }
