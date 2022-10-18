@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "module": "esnext",
+        "esModuleInterop": true,
+        "experimentalDecorators": true,
+        "noImplicitAny": true,
+        "moduleResolution": "node",
+        "sourceMap": true,
+        "outDir": "dist",
+        "baseUrl": ".",
+        "target": "ES6",
+        "strict": true
+    },
+    "include": ["src/**/*", "../testing/src/app.ts"],
+    "exclude": ["./node_modules"]
+}

@@ -1,0 +1,47 @@
+body {
+    background-color: rgb(234, 234, 234);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* height: 100vh; */
+    position: static;
+}
+#game {
+    /* position: fixed; */
+    width: 500px;
+    height: 500px;
+    border: solid 1px black;
+    background-color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+}
+#start,
+#score,
+#record {
+    margin: 20px;
+    width: 100px;
+    height: 3rem;
+    font-size: larger;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cell {
+    width: 48px;
+    height: 48px;
+    border: solid 1px grey;
+}
+.snake {
+    background-color: pink;
+}
+.snake.head {
+    background-color: rgb(218, 157, 167);
+}
+.food {
+    background-color: green;
+}
+.hidden {
+    display: none;
+}
